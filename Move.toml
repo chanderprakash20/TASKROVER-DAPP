@@ -1,0 +1,16 @@
+[package]
+name = "task"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+[dev-addresses]
+task_addr = "0f1c2b9f31d7f25e79ebeb112295bf8f69a3b7b46b7029cff0435bbc1d4ca659"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
